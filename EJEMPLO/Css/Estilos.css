@@ -1,0 +1,138 @@
+html,body{
+    background-color: rgb(29, 126, 94);
+    padding:0px;/*alianea el texto que se encuentra en body al borde de izquierdo*/
+    margin: 0px;/*elimina el margen del contenido*/
+    font-size: 20px;/*para cambiar el tamaño de la fuente*/
+    font-family: Arial Narrow;/*cambia tipo de letra*/
+text-align: center;
+}
+nav{
+    display: flex;/*pasa los elementos de vertical a horizontal*/
+    background-color : rgb(35, 35, 46);
+    padding:10px;
+    justify-content: space-between;/*lleva componente un lado*/
+    align-items:center;
+}
+ul{
+    display: flex;
+}
+nav li{
+    padding-left:20px;
+    list-style: none;
+}
+nav li a{/*especificar ubicacion*/
+color: white;
+text-decoration: none;/*quitar subrayado
+}
+/*main section*/
+.main_section{
+    padding:20px;
+    text-align:center;
+}
+/*--inicia productos--*/
+.productos{
+    background-image:url("../Imagenes/curve.png");
+    height: 100px;
+    background-size: cover;
+    background-position: center top ;
+    padding: 10%;
+    display: flex; 
+    
+
+}
+.producto{
+    padding: 20px;
+    margin-top: 1px/*--posición--*/
+}
+.producto .contenido{
+    padding:20px;
+    background-color: blueviolet;
+}
+.comprar{
+    height:50px;
+    width: 100%;
+    background-color: aquamarine;
+    border-radius: 2px;
+    color: red;
+}
+.comprar:hover{
+    background-color: grey;
+}
+.imag_p{
+    text-align: center;
+
+}/*--termina productos--*/
+/*--ínicio Benefecios--*/
+.Beneficios{
+    padding: 10%;
+    display: flex;
+
+}/*--termina productos--*/
+.Recomendaciones{
+    padding: 10%;
+    display: flex;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+max-width: 100px;
+}
+/*--------venta-----------*/
+
+.modulo_pago{
+
+    background-color: white;
+    box-shadow: 0 0 2px black;
+    padding: 10px;
+}
+.modulo_pago_amages{
+    max-width: 150px;
+    text-align: center
+}
+.data{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    box-sizing: border border-box/*hace que los elementos respeten el margen*/
+}
+label{
+font-size : 20px;/*tamaño de la fuente de label*/
+}
+.modulo_pago main_btn{
+    margin-top: 10px;
+}
+
+

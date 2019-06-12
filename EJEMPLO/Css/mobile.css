@@ -1,0 +1,11 @@
+@media(max-width: 600px){/*ajuste con un ancho de pantalla minimo de 600px*/
+.products{
+    display: inherit;/*organiza en forma vertical*/
+    height: auto;/*ajusta la altura de forma automatica*/
+}
+.product{
+    margin-top: auto;/*el espacio entre los objetos producto se ajusta automaticamente*/
+}
+
+
+}

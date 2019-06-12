@@ -1,0 +1,63 @@
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+.Row{
+    display: flex;
+}
+.col-1{
+    width: 8.333333%;
+}
+.col-2{
+width: 16.666666%;
+}
+.col-3{
+width: 24.999999%;
+}
+.col-4{
+width: 33.333333%;
+}
+.col-5{
+width: 41.666666%;
+}
+.col-6{
+width: 49.999999%;
+}
+.col-7{
+width: 58.333333%;
+}
+.col-8{
+width: 66.666666%;
+}
+.col-9{
+width: 74.999999%;
+}
+.col-10{
+width: 83.333333%;
+}
+.col-11{
+width: 91.999999%;
+}
+.col-12{
+width: 100%;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    padding: 10px;
+
+}
+.col-1 img, .col-2 img, .col-3 img, .col-4 img, .col-5 img, .col-6 img, .col-7 img, .col-8 img, .col-9 img, .col-10 img, .col-11 img, .col-12 img{
+width:100% ;}
+
+@media(max-with: 600){
+    .container{
+        padding: 10px;
+    }
+    .Row{
+        display: inline;
+        padding: 10px;
+    }
+    .col-1,.col-2, .col-3, .col-, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+        width: 100%;
+        padding: 0px;
+    }
+}
